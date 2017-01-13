@@ -8,11 +8,8 @@ import {AppAuthorsComponent} from './AppsForReusableComponents/appAuthors.compon
 @Component({
     selector: 'my-app',
     template: `
-<<<<<<< HEAD
-=======
     <h1>This is a commit</h1>
     <appMessages></appMessages>
->>>>>>> c81ac151245bda1f772e1a33c5ab1f3e25d2bbe1
     <appLike></appLike>
     <appFavorite></appFavorite>
     <appVoter></appVoter>
