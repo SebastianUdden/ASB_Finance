@@ -8,13 +8,13 @@ import {AppAuthorsComponent} from './AppsForReusableComponents/appAuthors.compon
 @Component({
     selector: 'my-app',
     template: `
-    <h2>Try this TIMMEY!!</h2>
     <appMessages></appMessages>
     <appLike></appLike>
     <appFavorite></appFavorite>
     <appVoter></appVoter>
     <appAuthors></appAuthors>
     <appMessages></appMessages>
+    <h2>Try this TIMMEY!!</h2>
     `,
     directives: [
         AppMessagesComponent,
