@@ -1,4 +1,4 @@
-System.register(['angular2/core', './AppsForReusableComponents/appMessages.component', './AppsForReusableComponents/appLike.component', './AppsForReusableComponents/appFavorite.component', './AppsForReusableComponents/appVoter.component', './AppsForReusableComponents/appAuthors.component'], function(exports_1, context_1) {
+System.register(['angular2/core', './AppsForReusableComponents/appMessages.component', './AppsForReusableComponents/appLike.component', './AppsForReusableComponents/appFavorite.component', './AppsForReusableComponents/appVoter.component', './AppsForReusableComponents/appAuthors.component', './ASBApps/ASBApp.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', './AppsForReusableComponents/appMessages.compo
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, appMessages_component_1, appLike_component_1, appFavorite_component_1, appVoter_component_1, appAuthors_component_1;
+    var core_1, appMessages_component_1, appLike_component_1, appFavorite_component_1, appVoter_component_1, appAuthors_component_1, ASBApp_component_1;
     var AppComponent;
     return {
         setters:[
@@ -31,6 +31,9 @@ System.register(['angular2/core', './AppsForReusableComponents/appMessages.compo
             },
             function (appAuthors_component_1_1) {
                 appAuthors_component_1 = appAuthors_component_1_1;
+            },
+            function (ASBApp_component_1_1) {
+                ASBApp_component_1 = ASBApp_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
@@ -39,13 +42,14 @@ System.register(['angular2/core', './AppsForReusableComponents/appMessages.compo
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n    <h2>GIT IS WORKING!</h2>\n    <appAuthors></appAuthors>\n    \n    ",
+                        template: "\n    <h2>GIT IS WORKING!</h2>\n    <ASBApp></ASBApp>\n    \n    ",
                         directives: [
                             appMessages_component_1.AppMessagesComponent,
                             appLike_component_1.AppLikeComponent,
                             appFavorite_component_1.AppFavoriteComponent,
                             appVoter_component_1.AppVoterComponent,
-                            appAuthors_component_1.AppAuthorsComponent]
+                            appAuthors_component_1.AppAuthorsComponent,
+                            ASBApp_component_1.ASBAppComponent]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
