@@ -8,8 +8,7 @@ import {AppAuthorsComponent} from './AppsForReusableComponents/appAuthors.compon
 @Component({
     selector: 'my-app',
     template: `
-    <h1>Now GIT IS WORKING!!!!!!!! WEHOOOOOO!</h1>
-    <p>Is it still not working?</p>
+    <h2>Try this TIMMEY!!</h2>
     <appMessages></appMessages>
     <appLike></appLike>
     <appFavorite></appFavorite>
