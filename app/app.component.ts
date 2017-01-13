@@ -10,6 +10,21 @@ import {ASBAppComponent} from './ASBApps/ASBApp.component';
     selector: 'my-app',
     template: `
     <h2>GIT IS WORKING!</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Lista</th>
+                <th>Namn</th>
+                <th>Symbol</th>
+                <th>Sektor</th>
+                <th>Valuta</th>
+                <th>Börsvärde</th>
+                <th>Beskrivning</th>
+                <th>Fact sheet</th>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
     <ASBApp></ASBApp>
     
     `,
