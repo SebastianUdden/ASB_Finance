@@ -39,7 +39,7 @@ System.register(['angular2/core', './AppsForReusableComponents/appMessages.compo
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n    <appLike></appLike>\n    <appFavorite></appFavorite>\n    <appVoter></appVoter>\n    <appAuthors></appAuthors>\n    <appMessages></appMessages>\n    ",
+                        template: "\n<<<<<<< HEAD\n=======\n    <h1>This is a commit</h1>\n    <appMessages></appMessages>\n>>>>>>> c81ac151245bda1f772e1a33c5ab1f3e25d2bbe1\n    <appLike></appLike>\n    <appFavorite></appFavorite>\n    <appVoter></appVoter>\n    <appAuthors></appAuthors>\n    <appMessages></appMessages>\n    ",
                         directives: [
                             appMessages_component_1.AppMessagesComponent,
                             appLike_component_1.AppLikeComponent,
