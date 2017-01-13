@@ -39,7 +39,7 @@ System.register(['angular2/core', './AppsForReusableComponents/appMessages.compo
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n    <h2>GIT IS WORKING!</h2>\n    \n    ",
+                        template: "\n    <h2>GIT IS WORKING!</h2>\n    <appAuthors></appAuthors>\n    \n    ",
                         directives: [
                             appMessages_component_1.AppMessagesComponent,
                             appLike_component_1.AppLikeComponent,

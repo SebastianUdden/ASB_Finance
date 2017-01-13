@@ -9,6 +9,7 @@ import {AppAuthorsComponent} from './AppsForReusableComponents/appAuthors.compon
     selector: 'my-app',
     template: `
     <h2>GIT IS WORKING!</h2>
+    <appAuthors></appAuthors>
     
     `,
     directives: [
