@@ -26,7 +26,7 @@ System.register(['angular2/core', '../ASBComponents/tableStockList.component'], 
                 }
                 ASBAppComponent = __decorate([
                     core_1.Component({
-                        selector: 'ASBApp',
+                        selector: 'tableStockList',
                         template: "\n    <tableStockList></tableStockList>\n    ",
                         directives: [tableStockList_component_1.TableStockListComponent]
                     }), 

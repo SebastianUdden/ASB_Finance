@@ -1,10 +1,14 @@
 export class TableStockListService {
-    getStocks() : string[] {
+    getStocks() {
         return [
-            "Aktie1",
-            "Aktie2",
-            "Aktie3",
-            "Aktie4"
+            {
+                "Lista":"First North",
+                "Namn":"ThisStock"
+            },
+            {
+                "Lista":"First North",
+                "Namn":"ThisStock2"
+            }
         ]
     }
 }

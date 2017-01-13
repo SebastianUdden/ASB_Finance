@@ -29,7 +29,7 @@ System.register(['angular2/core', '../ASBServices/tableStockListService.service'
                 TableStockListComponent = __decorate([
                     core_1.Component({
                         selector: 'tableStockList',
-                        template: "\n        <h2>Stocks</h2>\n        {{ title }}\n        <ul>\n            <li *ngFor='#stock of stocks'>\n                {{ stock }}\n            </li>\n        </ul>\n        \n    ",
+                        template: "\n        <table>\n            <thead>\n                <tr>\n                    <th class=\"stockListHeader\">Lista</th>\n                    <th>Namn</th>\n                    <th>Symbol</th>\n                    <th>Sektor</th>\n                    <th>Valuta</th>\n                    <th>B\u00F6rsv\u00E4rde</th>\n                    <th>Beskrivning</th>\n                    <th>Fact sheet</th>\n            </thead>\n            <tbody>\n                <tr *ngFor='#stock of stocks'>\n                <td>{{stock.Lista}}</td>\n                <td>{{stock.Namn}}</td>\n                <td>Symbol</td>\n                <td>Sektor</td>\n                <td>Valuta</td>\n                <td>B\u00F6rsv\u00E4rde</td>\n                <td>Beskrivning</td>\n                <td>Fact Sheet</td>\n                </tr>\n            </tbody>\n        </table>\n    ",
                         providers: [tableStockListService_service_1.TableStockListService]
                     }), 
                     __metadata('design:paramtypes', [tableStockListService_service_1.TableStockListService])

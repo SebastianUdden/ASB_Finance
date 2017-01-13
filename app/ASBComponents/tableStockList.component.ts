@@ -4,14 +4,31 @@ import {TableStockListService} from '../ASBServices/tableStockListService.servic
 @Component({
     selector: 'tableStockList',
     template: `
-        <h2>Stocks</h2>
-        {{ title }}
-        <ul>
-            <li *ngFor='#stock of stocks'>
-                {{ stock }}
-            </li>
-        </ul>
-        
+        <table>
+            <thead>
+                <tr>
+                    <th class="stockListHeader">Lista</th>
+                    <th>Namn</th>
+                    <th>Symbol</th>
+                    <th>Sektor</th>
+                    <th>Valuta</th>
+                    <th>Börsvärde</th>
+                    <th>Beskrivning</th>
+                    <th>Fact sheet</th>
+            </thead>
+            <tbody>
+                <tr *ngFor='#stock of stocks'>
+                <td>{{stock.Lista}}</td>
+                <td>{{stock.Namn}}</td>
+                <td>Symbol</td>
+                <td>Sektor</td>
+                <td>Valuta</td>
+                <td>Börsvärde</td>
+                <td>Beskrivning</td>
+                <td>Fact Sheet</td>
+                </tr>
+            </tbody>
+        </table>
     `,
     providers: [TableStockListService]
 })

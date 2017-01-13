@@ -10,10 +10,14 @@ System.register([], function(exports_1, context_1) {
                 }
                 TableStockListService.prototype.getStocks = function () {
                     return [
-                        "Aktie1",
-                        "Aktie2",
-                        "Aktie3",
-                        "Aktie4"
+                        {
+                            "Lista": "First North",
+                            "Namn": "ThisStock"
+                        },
+                        {
+                            "Lista": "First North",
+                            "Namn": "ThisStock2"
+                        }
                     ];
                 };
                 return TableStockListService;

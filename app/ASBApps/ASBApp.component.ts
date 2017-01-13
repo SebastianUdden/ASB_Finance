@@ -2,7 +2,7 @@ import {Component} from 'angular2/core';
 import {TableStockListComponent} from '../ASBComponents/tableStockList.component';
 
 @Component({
-    selector: 'ASBApp',
+    selector: 'tableStockList',
     template: `
     <tableStockList></tableStockList>
     `,
