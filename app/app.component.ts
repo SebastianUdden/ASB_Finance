@@ -9,7 +9,7 @@ import {ASBAppComponent} from './ASBApps/ASBApp.component';
 @Component({
     selector: 'my-app',
     template: `
-    <h2>GIT IS WORKING!</h2>
+    <h3>Small cap</h3>
         <tableStockList></tableStockList>        
     `,
     directives: [

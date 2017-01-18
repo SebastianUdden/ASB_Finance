@@ -1,7 +1,78 @@
-.stockListHeader {
-    color:blue;
+body {
+    margin: 0;
+    height: 100%;
+    padding-top: 60px;
+    text-decoration: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.428571429;
+    color: #333;
+    background-color: #fff;
 }
 
-.stockColumn {
+.container {
+    float:left;
+    width: 100%;
+}
 
+#header {
+    top: 0;
+    margin-left: -15px;
+    border-width: 0 0 1px;
+    background-color: #222;
+    border-color: #080808;
+    border-radius: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.navbar-inverse {
+    background: #f6f6f6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.navbar-brand {
+    color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #000;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #000;
+    background-color: transparent;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto -112px;
+}
+
+#footer {
+	background:#f6f6f6;
+    border-top: 1px solid #e6e6e6;
+	width:100%;
+	height:50px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+.footerText {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#stockList th {
+    border: 1px solid gray;
+    padding: 2px;
 }
