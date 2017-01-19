@@ -42,7 +42,7 @@ System.register(['angular2/core', './AppsForReusableComponents/appMessages.compo
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n    <h3>Small cap</h3>\n        <tableStockList></tableStockList>        \n    ",
+                        template: "\n    <h3>First north</h3>\n        <tableStockList></tableStockList>        \n    ",
                         directives: [
                             appMessages_component_1.AppMessagesComponent,
                             appLike_component_1.AppLikeComponent,

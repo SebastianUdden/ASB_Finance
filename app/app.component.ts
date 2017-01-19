@@ -9,7 +9,7 @@ import {ASBAppComponent} from './ASBApps/ASBApp.component';
 @Component({
     selector: 'my-app',
     template: `
-    <h3>Small cap</h3>
+    <h3>First north</h3>
         <tableStockList></tableStockList>        
     `,
     directives: [
