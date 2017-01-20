@@ -24,8 +24,8 @@ import {TableStockListService} from '../ASBServices/tableStockListService.servic
                     <td class="columnMedium">{{stock.Symbol}}</td>
                     <td class="columnLarge">{{stock.Sektor}}</td>
                     <td class="columnSmall">{{stock.Valuta}}</td>
-                    <td class="columnLarge">{{stock.Namn}}</td>
-                    <td class="columnBox">{{stock.Namn}}</td>
+                    <td class="columnLarge">{{stock.Borsvarde}}</td>
+                    <td class="columnBox">{{stock.Beskrivning}}</td>
                     <td class="columnSmall"><img src="http://www.nasdaqomxnordic.com/static/img/pdf.gif"></td>
                 </tr>
             </tbody>
