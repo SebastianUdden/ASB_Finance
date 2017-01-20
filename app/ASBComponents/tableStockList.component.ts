@@ -15,6 +15,8 @@ import {TableStockListService} from '../ASBServices/tableStockListService.servic
                     <th>Börsvärde</th>
                     <th>Beskrivning</th>
                     <th>Fact sheet</th>
+                    <th>Betyg (Tim)</th>
+                    <th>Betyg (Sebastian)</th>
                 </tr>
             </thead>
             <tbody>
@@ -27,6 +29,8 @@ import {TableStockListService} from '../ASBServices/tableStockListService.servic
                     <td class="columnLarge">{{stock.Borsvarde}}</td>
                     <td class="columnBox">{{stock.Beskrivning}}</td>
                     <td class="columnSmall"><img src="http://www.nasdaqomxnordic.com/static/img/pdf.gif"></td>
+                    <td class="columnMedium"><div class="score" style="width: 80px"></div></td>
+                    <td class="columnMedium"><div class="score" style="width: 57px"></div></td>
                 </tr>
             </tbody>
         </table>

@@ -63,6 +63,11 @@ body {
     float: left;
 }
 
+.score {
+    background: url(http://www.allakartor.se/graphics/star_16.gif) repeat-x;
+    height: 16px;
+}
+
 .footerText {
     padding-top: 15px;
     padding-left: 10px;
@@ -100,7 +105,7 @@ body {
 }
 
 #stockList td img {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 #stockList .columnSmall {
