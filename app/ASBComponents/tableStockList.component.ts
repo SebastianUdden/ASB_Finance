@@ -4,7 +4,7 @@ import {TableStockListService} from '../ASBServices/tableStockListService.servic
 @Component({
     selector: 'tableStockList',
     template: `
-        <table id="stockList">
+        <table class="tableStandard">
             <thead>
                 <tr>
                     <th>Lista</th>
