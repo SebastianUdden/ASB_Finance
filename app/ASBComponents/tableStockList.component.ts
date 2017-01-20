@@ -17,6 +17,7 @@ import {TableStockListService} from '../ASBServices/tableStockListService.servic
                     <th>Fact sheet</th>
                     <th>Betyg (Tim)</th>
                     <th>Betyg (Sebbe)</th>
+                    <th>Kommentar</th>
                 </tr>
             </thead>
             <tbody>
@@ -31,6 +32,7 @@ import {TableStockListService} from '../ASBServices/tableStockListService.servic
                     <td class="columnSmall"><img src="http://www.nasdaqomxnordic.com/static/img/pdf.gif"></td>
                     <td class="columnMedium"><div class="score" style="width: 80px"></div></td>
                     <td class="columnMedium"><div class="score" style="width: 57px"></div></td>
+                    <td class="columnBox">Lorem ipsum dolor sit amet</td>
                 </tr>
             </tbody>
         </table>

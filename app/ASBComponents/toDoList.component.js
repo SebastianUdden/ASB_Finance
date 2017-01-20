@@ -29,7 +29,7 @@ System.register(['angular2/core', '../ASBServices/toDoList.service'], function(e
                 ToDoListComponent = __decorate([
                     core_1.Component({
                         selector: 'toDoList',
-                        template: "\n        <table class=\"tableStandard\" id=\"toDoList\">\n            <thead>\n                <tr>\n                    <th>Lista</th>\n                    <th>Namn</th>\n                    <th>Symbol</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr *ngFor='#toDo of toDos'>\n                    <td class=\"columnMedium\">{{toDo.Amne}}</td>\n                    <td class=\"columnLarge\">{{toDo.Beskrivning}}</td>\n                    <td class=\"columnMedium\">{{toDo.Prioritet}}</td>\n                </tr>\n            </tbody>\n        </table>\n    ",
+                        template: "\n        <table class=\"tableStandard\" id=\"toDoList\">\n            <thead>\n                <tr>\n                    <th>\u00C4mne</th>\n                    <th>Beskrivning</th>\n                    <th>Prioritets score</th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr *ngFor='#toDo of toDos'>\n                    <td class=\"columnMedium\">{{toDo.Amne}}</td>\n                    <td class=\"columnLarge\">{{toDo.Beskrivning}}</td>\n                    <td class=\"columnMedium\">{{toDo.Prioritet}}</td>\n                </tr>\n            </tbody>\n        </table>\n    ",
                         providers: [toDoList_service_1.ToDoListService]
                     }), 
                     __metadata('design:paramtypes', [toDoList_service_1.ToDoListService])

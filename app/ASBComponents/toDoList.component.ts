@@ -7,9 +7,9 @@ import {ToDoListService} from '../ASBServices/toDoList.service'
         <table class="tableStandard" id="toDoList">
             <thead>
                 <tr>
-                    <th>Lista</th>
-                    <th>Namn</th>
-                    <th>Symbol</th>
+                    <th>Ämne</th>
+                    <th>Beskrivning</th>
+                    <th>Prioritets score</th>
                 </tr>
             </thead>
             <tbody>
