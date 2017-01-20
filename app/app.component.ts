@@ -3,21 +3,19 @@ import {AppMessagesComponent} from './AppsForReusableComponents/appMessages.comp
 import {AppLikeComponent} from './AppsForReusableComponents/appLike.component';
 import {AppFavoriteComponent} from './AppsForReusableComponents/appFavorite.component';
 import {AppVoterComponent} from './AppsForReusableComponents/appVoter.component';
-import {AppAuthorsComponent} from './AppsForReusableComponents/appAuthors.component';
 import {ASBAppComponent} from './ASBApps/ASBApp.component';
 
 @Component({
     selector: 'my-app',
     template: `
     <h3>First north</h3>
-        <tableStockList></tableStockList>        
+        <ASBApp></ASBApp>        
     `,
     directives: [
         AppMessagesComponent,
         AppLikeComponent,    
         AppFavoriteComponent, 
         AppVoterComponent, 
-        AppAuthorsComponent,
         ASBAppComponent]
 })
 export class AppComponent { 

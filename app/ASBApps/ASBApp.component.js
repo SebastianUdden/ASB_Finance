@@ -1,4 +1,4 @@
-System.register(['angular2/core', '../ASBComponents/tableStockList.component'], function(exports_1, context_1) {
+System.register(['angular2/core', '../ASBComponents/tableStockList.component', '../ASBComponents/toDoList.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', '../ASBComponents/tableStockList.component'], 
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, tableStockList_component_1;
+    var core_1, tableStockList_component_1, toDoList_component_1;
     var ASBAppComponent;
     return {
         setters:[
@@ -19,6 +19,9 @@ System.register(['angular2/core', '../ASBComponents/tableStockList.component'], 
             },
             function (tableStockList_component_1_1) {
                 tableStockList_component_1 = tableStockList_component_1_1;
+            },
+            function (toDoList_component_1_1) {
+                toDoList_component_1 = toDoList_component_1_1;
             }],
         execute: function() {
             ASBAppComponent = (function () {
@@ -26,9 +29,9 @@ System.register(['angular2/core', '../ASBComponents/tableStockList.component'], 
                 }
                 ASBAppComponent = __decorate([
                     core_1.Component({
-                        selector: 'tableStockList',
-                        template: "\n    <tableStockList></tableStockList>\n    ",
-                        directives: [tableStockList_component_1.TableStockListComponent]
+                        selector: 'ASBApp',
+                        template: "\n    <toDoList></toDoList>\n    <tableStockList></tableStockList>\n    ",
+                        directives: [tableStockList_component_1.TableStockListComponent, toDoList_component_1.ToDoListComponent]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], ASBAppComponent);
