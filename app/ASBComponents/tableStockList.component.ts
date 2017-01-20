@@ -16,7 +16,7 @@ import {TableStockListService} from '../ASBServices/tableStockListService.servic
                     <th>Beskrivning</th>
                     <th>Fact sheet</th>
                     <th>Betyg (Tim)</th>
-                    <th>Betyg (Sebastian)</th>
+                    <th>Betyg (Sebbe)</th>
                 </tr>
             </thead>
             <tbody>
